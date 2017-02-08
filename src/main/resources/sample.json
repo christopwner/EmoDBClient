@@ -1,0 +1,402 @@
+{
+  "7b8d8a82-77b6-4940-95fe-50ed99b23cb2": {
+    "color": "green",
+    "text": "Lacus augue vitae dis orci natoque nonummy."
+  },
+  "4f2bc7d1-2974-4848-ba40-9d8cb997bfac": {
+    "color": "indigo",
+    "text": "Nulla morbi sit nunc laoreet."
+  },
+  "820d066d-5069-41df-9d05-dca924f45570": {
+    "color": "red",
+    "text": "Dolor donec."
+  },
+  "81b0e85e-55cb-4b9e-ad59-15faee1c6867": {
+    "color": "yellow",
+    "text": "Nulla purus posuere ac dui hymenaeos class imperdiet viverra donec quam nullam."
+  },
+  "5fdb5ca9-a959-4c34-94db-03169beeeaa8": {
+    "color": "violet",
+    "text": "Dolor ipsum."
+  },
+  "36ebf622-d4d2-4bee-a001-c57fe6f3b752": {
+    "color": "green",
+    "text": "Etiam dolor arcu vulputate congue ultrices."
+  },
+  "7639df35-967f-4f2a-addc-722d3c3b29c0": {
+    "color": "blue",
+    "text": "Proin porta accumsan nam felis sed urna arcu integer."
+  },
+  "e7ccebe1-1125-46d0-af23-2d62b8453717": {
+    "color": "indigo",
+    "text": "Nulla velit a nisl etiam."
+  },
+  "3fbc9ade-bb3c-480d-bce8-479e7a14c307": {
+    "color": "red",
+    "text": "Neque porta."
+  },
+  "34b1146c-6454-4206-8701-09ba85000852": {
+    "color": "green",
+    "text": "Neque lacus lobortis risus id malesuada vestibulum."
+  },
+  "1816fdc7-a61f-4932-8a3d-ee72858cd60b": {
+    "color": "violet",
+    "text": "Dolor lorem."
+  },
+  "7f4a0648-6651-4f7c-ac0b-3bc7f765c74f": {
+    "color": "orange",
+    "text": "Netus donec a urna etiam porttitor sem risus."
+  },
+  "36a32e5e-2cc5-4720-837a-7be2ccb9dfbe": {
+    "color": "orange",
+    "text": "Class morbi."
+  },
+  "ab2beedc-f3da-4027-a0cb-e27cb590322c": {
+    "color": "orange",
+    "text": "Ipsum risus placerat."
+  },
+  "24152255-24d4-4598-a854-a7be170ae680": {
+    "color": "orange",
+    "text": "Fusce netus."
+  },
+  "e5a204bf-3442-4d35-8201-e18e0f2b36f6": {
+    "color": "violet",
+    "text": "Proin donec purus ullamcorper suscipit erat nullam id erat."
+  },
+  "2633a071-a4f9-4cb9-83b4-ec49791ab55d": {
+    "color": "green",
+    "text": "Etiam dolor vitae sagittis curabitur class."
+  },
+  "cf32af23-e751-4433-82c3-b4319dfa7194": {
+    "color": "blue",
+    "text": "Donec class."
+  },
+  "4bd7780c-d142-4ed6-b8ee-b47ed32abd93": {
+    "color": "yellow",
+    "text": "Neque vitae sociis quis orci vivamus et ut primis sagittis viverra."
+  },
+  "4c3544f2-8048-4b21-b404-57e697dcada0": {
+    "color": "green",
+    "text": "Class lacus mollis venenatis adipiscing."
+  },
+  "1ea2e168-a89c-46cf-9508-d40ad584d118": {
+    "color": "yellow",
+    "text": "Nulla justo lectus et sed magnis consequat inceptos vitae pellentesque neque in habitasse."
+  },
+  "c6f530f8-6dee-4c85-a0a3-3dfe8e8c5444": {
+    "color": "orange",
+    "text": "Justo vitae vehicula."
+  },
+  "04781593-36e3-4336-b97f-40af440da3ea": {
+    "color": "indigo",
+    "text": "Morbi justo dis ornare ve nisl vitae mauris nascetur egestas rhoncus imperdiet faucibus mollis auctor."
+  },
+  "1600f678-e828-4f0c-99ef-2f62bb85cd64": {
+    "color": "blue",
+    "text": "Metus porta odio at neque vitae."
+  },
+  "fe50fe9a-b919-4a1d-8fd1-42bcf3cd18b4": {
+    "color": "green",
+    "text": "Proin justo quam netus nonummy mus eros sit blandit et dis ve tincidunt nibh mus dis."
+  },
+  "f347b901-a1f0-4801-ad42-3449fc3284fa": {
+    "color": "orange",
+    "text": "Morbi massa sodales netus ante a nibh."
+  },
+  "0e31d90b-9ac0-40d5-ab62-b9502ffdc536": {
+    "color": "yellow",
+    "text": "Lorem vitae primis porta ullamcorper sit eget vestibulum convallis."
+  },
+  "b6e1bbbc-dea1-42ee-9080-7a2947dcb167": {
+    "color": "yellow",
+    "text": "Massa dolor turpis."
+  },
+  "d3b929dd-3223-4a79-92f8-d13d5f2d8906": {
+    "color": "yellow",
+    "text": "Massa lacus vehicula ut leo eu elit condimentum ad tortor placerat fermentum quam egestas in."
+  },
+  "585f499f-b4a7-4824-8ac6-bb4f13e9e02e": {
+    "color": "indigo",
+    "text": "Netus proin."
+  },
+  "bd0641ff-e18b-4dc3-bee2-fa1286467394": {
+    "color": "red",
+    "text": "Ipsum felis hac urna elementum ut orci per fames malesuada vivamus magnis sem."
+  },
+  "ef6583c7-4aff-400d-9c54-59cd6eef48c4": {
+    "color": "orange",
+    "text": "Velit nulla mattis convallis."
+  },
+  "9443ee6c-d9de-4787-8c6f-da862ef06657": {
+    "color": "violet",
+    "text": "Risus vitae purus."
+  },
+  "1dd7fb5b-f5b0-4002-92d0-ce58b64aeb07": {
+    "color": "yellow",
+    "text": "Curae neque nullam commodo."
+  },
+  "a1eaa557-bf40-4507-a5f8-64cbf0a51523": {
+    "color": "yellow",
+    "text": "Donec ipsum integer ultrices fusce viverra dapibus penatibus litora varius augue pretium feugiat."
+  },
+  "0599d960-3bdb-455a-9ecd-d5244adfaaa7": {
+    "color": "indigo",
+    "text": "Lorem class."
+  },
+  "073fc4a5-b817-4c87-a145-b4b2ec1251ed": {
+    "color": "red",
+    "text": "Morbi velit."
+  },
+  "aa376140-c1a8-4743-9f9b-e8d9adbce3bb": {
+    "color": "green",
+    "text": "Nulla massa tortor."
+  },
+  "93500c57-24b0-4828-b71d-243cc6d1d5f7": {
+    "color": "blue",
+    "text": "Curae netus."
+  },
+  "9a09a751-54bd-4f71-b577-b8979b4f49ce": {
+    "color": "red",
+    "text": "Purus vitae."
+  },
+  "f210f1c5-d87f-41b4-b091-bd595650d3e0": {
+    "color": "blue",
+    "text": "Justo proin mus orci neque."
+  },
+  "46aa80d4-464c-41ab-9773-ef64a46b92d4": {
+    "color": "blue",
+    "text": "Magna neque odio felis."
+  },
+  "a35ac947-8562-4836-b0e0-fe8daec6c47b": {
+    "color": "yellow",
+    "text": "Porta morbi."
+  },
+  "4a16b7c7-3bff-470d-b022-160e6e91b2de": {
+    "color": "indigo",
+    "text": "Donec velit vivamus quisque mollis proin sit tincidunt nullam vestibulum."
+  },
+  "967b3675-1345-472b-90ea-94d82cbfb6e0": {
+    "color": "indigo",
+    "text": "Risus augue."
+  },
+  "453a0646-cc6d-442a-a04c-ea04f3b21dc9": {
+    "color": "yellow",
+    "text": "Proin lorem."
+  },
+  "65549899-ca46-4a5b-93c8-1cb4a55751a6": {
+    "color": "orange",
+    "text": "Etiam vitae eget maecenas cum."
+  },
+  "6c44cac2-ab0e-401b-981e-77c17d056c7e": {
+    "color": "violet",
+    "text": "Etiam neque eni nunc lorem odio platea bibendum nulla id vitae est felis dignissim."
+  },
+  "d856789b-cf2f-481f-8da6-2481e45b90b6": {
+    "color": "green",
+    "text": "Metus fusce aenean semper pretium iaculis cursus."
+  },
+  "8e3df749-1610-42b1-aba0-d3e836009f07": {
+    "color": "indigo",
+    "text": "Ipsum magna est felis velit leo velit duis."
+  },
+  "7c348f51-3b6a-42d0-824d-4f9c777bdf9b": {
+    "color": "blue",
+    "text": "Fusce netus egestas integer elit erat ante mus a tellus."
+  },
+  "22128ef1-8cdb-4f6c-b9eb-9ac670feb951": {
+    "color": "red",
+    "text": "Massa vitae rutrum pellentesque facilisis proin ut."
+  },
+  "6d3d08b4-9bb9-46d7-b7a1-287662131ab6": {
+    "color": "violet",
+    "text": "Curae donec condimentum eleifend."
+  },
+  "70e325ff-b4f2-47b1-9e09-09a7e9f9da04": {
+    "color": "green",
+    "text": "Velit metus sapien tortor eleifend adipiscing aptent ut."
+  },
+  "060f73a2-591f-44f2-bad2-faf98dbf13a0": {
+    "color": "blue",
+    "text": "Morbi porta."
+  },
+  "f88ad715-9000-4e27-aca7-5ce4bf239f7d": {
+    "color": "red",
+    "text": "Vitae risus aptent litora."
+  },
+  "55f5a1b6-fff8-4e0e-9f9a-7a100cab5592": {
+    "color": "indigo",
+    "text": "Vitae lacus etiam congue ut."
+  },
+  "842b4c0b-ca09-49ab-be1a-9aec799c40a1": {
+    "color": "red",
+    "text": "Morbi magna pharetra nulla metus congue id non consequat semper senectus natoque quam."
+  },
+  "85f87570-55e4-422c-8f8a-d9c69d690d8c": {
+    "color": "red",
+    "text": "Class etiam odio quisque ut."
+  },
+  "c859c7e7-ce85-4344-964e-7d4753757261": {
+    "color": "orange",
+    "text": "Class nulla."
+  },
+  "791133cd-1fe5-4803-a2f5-87c8e0712624": {
+    "color": "green",
+    "text": "Neque class vel urna arcu curae tristique faucibus."
+  },
+  "a09ff5ec-b20b-498a-abd8-10e5c9516f11": {
+    "color": "blue",
+    "text": "Augue netus."
+  },
+  "5ef13cd0-8fa0-4b88-9c3b-6343db04dd38": {
+    "color": "red",
+    "text": "Justo risus tellus suspendisse proin consequat natoque pellentesque mattis."
+  },
+  "0ea0d27b-8d88-41cb-a313-f6814033baf0": {
+    "color": "orange",
+    "text": "Neque proin semper ac duis erat mauris in."
+  },
+  "e7365eec-e941-463c-8010-d638293a6a8f": {
+    "color": "yellow",
+    "text": "Class etiam luctus aptent per conubia."
+  },
+  "93ab0fd0-c10e-4416-ab7b-211833c754de": {
+    "color": "yellow",
+    "text": "Fusce magna purus eni faucibus hendrerit class nonummy gravida feugiat mauris."
+  },
+  "ed70895e-79ad-4bd5-bf9d-a0d2b1dd8578": {
+    "color": "red",
+    "text": "Felis nulla etiam fusce lorem."
+  },
+  "049d6d3e-a007-4d64-afa3-a808cfff56ae": {
+    "color": "yellow",
+    "text": "Lorem augue."
+  },
+  "ccf0a69f-3c2b-4d52-b36f-a42d3b4328c5": {
+    "color": "orange",
+    "text": "Ipsum felis nonummy."
+  },
+  "9e47588e-41db-48f8-b171-2276d4b68320": {
+    "color": "indigo",
+    "text": "Purus etiam odio sagittis facilisis amet eget eleifend curae dictumst elementum."
+  },
+  "0b975816-97e6-454a-abfc-43d17f5c4d9f": {
+    "color": "violet",
+    "text": "Etiam fusce nullam at id semper."
+  },
+  "cd62e300-8c51-4c5b-93a7-0b75d4c9e46b": {
+    "color": "indigo",
+    "text": "Metus nulla lorem proin rutrum adipiscing proin."
+  },
+  "81b4488e-f573-4252-b1f9-d4ad8829d3d8": {
+    "color": "yellow",
+    "text": "Dolor fusce massa lacinia vivamus cursus lorem adipiscing."
+  },
+  "866d18e9-a97b-45a8-a004-b2983694cb84": {
+    "color": "violet",
+    "text": "Augue class quam integer vel fringilla blandit tempor erat nunc diam dis."
+  },
+  "422d240c-3b05-44de-91f8-6eec364afd6b": {
+    "color": "yellow",
+    "text": "Nulla felis neque odio donec risus orci pede platea ad."
+  },
+  "115e7886-2f3c-446d-9c69-e88ff4fc267f": {
+    "color": "yellow",
+    "text": "Class magna purus magnis enim tristique primis sociosqu magnis pharetra."
+  },
+  "4f2c7da8-2c75-4f93-ac6a-187bcdb9000e": {
+    "color": "indigo",
+    "text": "Curae magna ligula ipsum iaculis gravida auctor lorem lacus neque ligula luctus dignissim magna quisque id."
+  },
+  "e6973e99-15a7-4d64-a2a6-e685d48fdfe6": {
+    "color": "green",
+    "text": "Dolor velit duis pretium auctor ipsum arcu."
+  },
+  "1bb0e988-56bc-4b6b-90a1-fa1b0100b29f": {
+    "color": "indigo",
+    "text": "Augue fames cum elit ad consectetuer tempus ac pharetra duis inceptos imperdiet pellentesque cubilia quis."
+  },
+  "3fe134b4-b40f-40ef-a0d3-62d355641dad": {
+    "color": "violet",
+    "text": "Etiam felis elementum bibendum."
+  },
+  "e143096d-58df-4e08-b2ef-2087c443d659": {
+    "color": "green",
+    "text": "Nulla justo."
+  },
+  "b9fbee42-7732-40a9-9709-76ed1fe05b1d": {
+    "color": "yellow",
+    "text": "Neque morbi sodales magna potenti sapien est nisl leo hendrerit."
+  },
+  "8269391e-0ee4-4618-91ae-eb40707c2599": {
+    "color": "red",
+    "text": "Velit porta tempor rutrum accumsan parturient curabitur netus etiam augue mattis ligula lobortis eros arcu erat cubilia facilisis."
+  },
+  "9cd80324-042e-4a9c-be1a-23cc6643de92": {
+    "color": "yellow",
+    "text": "Augue vitae sapien sollicitudin fermentum aptent non eleifend quisque."
+  },
+  "9fe67c68-0bb1-4614-8f08-bff7ecaa03d0": {
+    "color": "indigo",
+    "text": "Curae magna."
+  },
+  "b37a21e3-295b-4095-ac19-9bcc55a0fa26": {
+    "color": "blue",
+    "text": "Metus ipsum a ligula cras ullamcorper mus orci adipiscing."
+  },
+  "d26c085f-51fe-42ba-94bf-46c1c49166f2": {
+    "color": "violet",
+    "text": "Proin morbi."
+  },
+  "c97c7977-ccab-4a58-95f6-74aa3fd5e0aa": {
+    "color": "violet",
+    "text": "Felis purus a vivamus."
+  },
+  "26182653-f3ae-4f5b-84c9-c83a861498eb": {
+    "color": "indigo",
+    "text": "Fusce netus nisi dolor faucibus etiam laoreet ligula curae ullamcorper faucibus blandit in nunc et nisi ad tristique lacus eu."
+  },
+  "86407ac5-65b3-4d99-9c4b-84703109cb5c": {
+    "color": "violet",
+    "text": "Vitae ipsum."
+  },
+  "7796e582-c820-42bc-bf14-6d9a128e4665": {
+    "color": "red",
+    "text": "Vitae class varius magna iaculis cum quis ac."
+  },
+  "997e44cc-ebbb-4be5-abcd-2505784e5224": {
+    "color": "violet",
+    "text": "Dolor neque volutpat magna nisi libero."
+  },
+  "49664e62-f7f3-475a-862f-9b444d24fd55": {
+    "color": "yellow",
+    "text": "Massa metus."
+  },
+  "fc015df8-eeb7-4ae9-88fd-326259960564": {
+    "color": "blue",
+    "text": "Metus fusce est pede."
+  },
+  "6bae1aea-ee10-48af-b441-8ecb58ac621b": {
+    "color": "violet",
+    "text": "Augue curae taciti massa tempus auctor lorem sodales turpis id molestie lectus etiam."
+  },
+  "4830b2d7-cd77-4698-ae5f-2c21952d2123": {
+    "color": "orange",
+    "text": "Risus purus congue tincidunt conubia."
+  },
+  "336b20ec-f2d7-4263-94c9-a3e2263f6d82": {
+    "color": "blue",
+    "text": "Curae donec duis morbi ad libero ipsum sapien odio."
+  },
+  "d1c1c4ca-ce26-4170-8db4-bd280c951f68": {
+    "color": "blue",
+    "text": "Morbi class aptent luctus orci malesuada."
+  },
+  "5f5faaf6-0c19-4812-b956-5e9a77f0eaa5": {
+    "color": "orange",
+    "text": "Risus vitae ipsum potenti nonummy consequat."
+  },
+  "e389bf19-0cab-45e6-bfd1-e8cc1e05ad60": {
+    "color": "indigo",
+    "text": "Augue curae blandit tincidunt."
+  }
+}
