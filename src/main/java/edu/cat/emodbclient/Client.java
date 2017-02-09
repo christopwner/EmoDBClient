@@ -8,7 +8,9 @@ import com.bazaarvoice.emodb.databus.client.DatabusClientFactory;
 import com.bazaarvoice.emodb.databus.client.DatabusFixedHostDiscoverySource;
 import com.bazaarvoice.emodb.sor.api.Audit;
 import com.bazaarvoice.emodb.sor.api.AuditBuilder;
+import com.bazaarvoice.emodb.sor.api.Change;
 import com.bazaarvoice.emodb.sor.api.DataStore;
+import com.bazaarvoice.emodb.sor.api.ReadConsistency;
 import com.bazaarvoice.emodb.sor.api.TableOptions;
 import com.bazaarvoice.emodb.sor.api.TableOptionsBuilder;
 import com.bazaarvoice.emodb.sor.client.DataStoreClientFactory;
@@ -24,6 +26,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.common.collect.ImmutableMap;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.concurrent.Executors;
@@ -44,20 +50,6 @@ import org.joda.time.Duration;
 /**
  * EmoDB client example.
  *
- * Created docker image for use with this example.
- * <p>
- * Run docker using:<br>
- * <b>docker run --name emodb -d -p 8080:8080 -p 8081:8081 christopwner/emodb
- * </b>
- * </p>
- * <p>
- * Also relies on Solr. Run with docker:<br>
- * <b>docker run --name solr -d -p 8983:8983 -t solr
- * </b><br>
- * <b>docker exec -it --user=solr solr bin/solr create_core -c emodb
- * </b>
- * </p>
- *
  * @author Christopher Towner
  */
 public class Client {
@@ -66,7 +58,6 @@ public class Client {
     private static final String PROGRAM = "example-app";
     private static final String DATA = "sample.json";
     private static final String TABLE = "example:data";
-    private static final String KEY = "demo";
     private static final String SOLR = "http://192.168.99.100:8983/solr/emodb";
 
     private static DataStore dataStore;
@@ -126,10 +117,9 @@ public class Client {
      * Create table on EmoDB. (Milestone #0)
      */
     private static void createTable() {
-        Map<String, Object> template = ImmutableMap.of("text", "sample", "color", "blue");
         TableOptions options = new TableOptionsBuilder().setPlacement("ugc_global:ugc").build();
         Audit audit = new AuditBuilder().setProgram(PROGRAM).setLocalHost().build();
-        dataStore.createTable(TABLE, options, template, audit);
+        dataStore.createTable(TABLE, options, Collections.EMPTY_MAP, audit);
     }
 
     /**
@@ -152,6 +142,7 @@ public class Client {
             Map obj = (Map) map.get(key);
             document.addField("text", obj.get("text"));
             document.addField("color", obj.get("color"));
+            document.addField("emodb_version", 1);
             solr.add(document);
         }
         solr.commit();
@@ -183,24 +174,34 @@ public class Client {
         Duration ttl = Duration.standardMinutes(10);
         databus.subscribe(PROGRAM, Conditions.alwaysTrue(), ttl, ttl);
         Runnable poll = () -> {
-            PollResult result = databus.poll(PROGRAM, Duration.millis(3000), 10);
+            PollResult result = databus.poll(PROGRAM, Duration.millis(30000), 10);
             System.out.println(result.getEvents());
+            List<String> keys = new LinkedList<>();
             for (Event e : result.getEvents()) {
                 indexEvent(e);
+                keys.add(e.getEventKey());
             }
+            databus.acknowledge(PROGRAM, keys);
         };
         ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
         pollHandle = scheduler.scheduleAtFixedRate(poll, 3, 3, SECONDS);
     }
-    
+
     /**
      * Index an databus event. (Milestone #2)
      */
     private static void indexEvent(Event e) {
-        System.out.println(e);
         Map<String, Object> content = e.getContent();
-        String key = content.get("~id").toString();
-        Map<String, Object> obj = dataStore.get(TABLE, key);
-        System.out.println(obj);
+        SolrInputDocument document = new SolrInputDocument();
+        document.addField("id", content.get("~id"));
+        document.addField("text", content.get("text"));
+        document.addField("color", content.get("color"));
+        document.addField("emodb_version", content.get("~version"));
+        try {
+            solr.add(document);
+            solr.commit();
+        } catch (SolrServerException | IOException ex) {
+            Logger.getLogger(Client.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 }
