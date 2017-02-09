@@ -16,9 +16,9 @@ Will also require addition configuration of Solr for setting our own version con
 
 ~~~
 <processor class="solr.DocBasedVersionConstraintsProcessorFactory">
-  <str name="versionField">my_version_l</str>
+  <str name="versionField">emodb_version</str>
 </processor>
 ~~~
 
-Will need to apt update container and install text editor of choice but config can be accessed by:
+Will need to update container and install text editor of choice but config can be accessed by:
 >docker exec -it --user=solr solr /bin/nano server/solr/emodb/conf/solrconfig.xml
